@@ -4,6 +4,8 @@ grug brained developer skills for Claude Code, packaged as a plugin marketplace.
 
 grug is humble. grug not smart. but grug notice complexity demon strike again and again in code with too many abstraction and not enough concrete thinking. this collection keep club nearby.
 
+grug notice friend claude sometimes grug, sometimes not. sometimes claude listen complexity demon. grug use club.
+
 ## What's in the `grug` plugin
 
 **Skills** (auto-activate when relevant)

@@ -2,7 +2,7 @@
   "name": "grug-skills",
   "owner": {
     "name": "Daniel Tallentire",
-    "email": "daniel.tallentire@gmail.com"
+    "email": "daniel@tallentire.dev"
   },
   "metadata": {
     "description": "Grug-brained skills, agents, and commands for Claude Code.",
