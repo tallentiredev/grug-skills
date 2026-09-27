@@ -1,0 +1,11 @@
+{
+  "name": "grug",
+  "version": "1.0.0",
+  "description": "Grug-brained skills, agents, and commands for keeping codebases simple and fighting off the complexity demon.",
+  "author": {
+    "name": "Daniel Tallentire"
+  },
+  "homepage": "https://github.com/tallentiredev/grug-skills",
+  "repository": "https://github.com/tallentiredev/grug-skills",
+  "keywords": ["grug", "simplicity", "code-review", "debugging", "architecture"]
+}

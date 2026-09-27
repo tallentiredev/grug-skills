@@ -1,0 +1,18 @@
+{
+  "name": "grug-skills",
+  "owner": {
+    "name": "Daniel Tallentire",
+    "email": "daniel.tallentire@gmail.com"
+  },
+  "metadata": {
+    "description": "Grug-brained skills, agents, and commands for Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "grug",
+      "source": "./plugins/grug",
+      "description": "Grug-brained skills, agents, and commands for keeping codebases simple and fighting off the complexity demon."
+    }
+  ]
+}
