@@ -4,6 +4,8 @@ grug brained developer skills for Claude Code, packaged as a plugin marketplace.
 
 grug is humble. grug not smart. but grug notice complexity demon strike again and again in code with too many abstraction and not enough concrete thinking. this collection keep club nearby.
 
+based on [The Grug Brained Developer](https://grugbrain.dev/) by Carson Gross. all credit for the ideas go there.
+
 grug notice friend claude sometimes grug, sometimes not. sometimes claude listen complexity demon. grug use club.
 
 ## What's in the `grug` plugin
@@ -54,3 +56,7 @@ plugins/
     agents/              # subagent definitions
     commands/            # slash commands
 ```
+
+## License
+
+[MIT](LICENSE). Use it, modify it, edit it freely.
