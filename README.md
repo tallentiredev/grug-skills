@@ -28,6 +28,7 @@ grug notice friend claude sometimes grug, sometimes not. sometimes claude listen
 - `/grug-new-project` — bootstrap greenfield project the grug way
 - `/grug-retrofit-project` — retrofit existing project with lean grug config
 - `/grug-slice` — slice a grug spec into an ordered implementation plan
+- `/grug-run-plan` — run a sliced plan with test and review gates, stopping only when a human decision is needed
 
 ## Install
 

@@ -51,11 +51,16 @@ Save to `.claude/plans/grug-plan-{project-slug}.md`.
 > Sliced from: {spec filename or "pasted spec"}
 > Generated: {date}
 > Slices: {count}
+> Gates: test: `{command}`, lint: `{command}` (optional; /grug-run-plan fills this in)
 
 ## How to Use This Plan
 Pick the next unchecked slice. Run `/grug-new-feature {slice title}`.
 After it lands, come back here. Check the box. Ask: does the next slice still make sense?
 Reorder, skip, or add slices as the codebase teaches you. The plan serves you, not the other way around.
+
+Or let grug walk the plan: `/grug-run-plan`. It runs each slice with test and review gates,
+commits to a `grug-run/` branch, and stops when it needs you. A slice marked `[!]` is blocked:
+read its **Blocked** line, then re-run with your answer.
 
 ## Slices
 
@@ -92,10 +97,11 @@ Grug plan ready: .claude/plans/grug-plan-{slug}.md
 {skipped count} features skipped (don't earn place yet)
 
 Start: /grug-new-feature {first slice title}
+Or run the whole plan with gates: /grug-run-plan
 ```
 
 ## Important
 
 The plan is a suggestion, not a contract. Grug has been wrong about ordering many times. The codebase will teach you things the spec could not know. When that happens, update the plan — reorder, skip, add. A plan that never changes is a plan nobody is reading.
 
-Never auto-execute slices in sequence. The human pause between slices is where grug says "actually, that next one doesn't make sense anymore." That pause is the most valuable moment in the whole process.
+Never auto-execute slices in sequence without gates. The human pause between slices is where grug says "actually, that next one doesn't make sense anymore." That pause is the most valuable moment in the whole process. `/grug-run-plan` runs slices back to back but keeps the pause: after every slice it asks whether the next one still makes sense, and stops when the answer is no.
